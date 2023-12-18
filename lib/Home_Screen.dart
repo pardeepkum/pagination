@@ -38,6 +38,9 @@ class HomeScreen extends StatelessWidget {
                     },
                     child: Container(
                         height: MediaQuery.of(context).size.height*.3,
+
+
+
                         padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 20),
                         color: Colors.black,
                         child: CachedNetworkImage(
